@@ -23,11 +23,6 @@ namespace WFA
             int X = random.Next(0, 200);
             int Y = random.Next(0, 200);
             
-            int randomR = random.Next(0, 255);
-            int randomG = random.Next(0, 255);
-            int randomB = random.Next(0, 255);
-
-            BackColor = Color.FromArgb(randomR, randomG, randomB);
             button1.Location = new Point(X, Y);
         }
     }
